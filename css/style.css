@@ -27,16 +27,13 @@ body {
     list-style: none;
 }
 
-.title {
-    color: var(--secondary-text-color);
-}
-
 
 .second-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 }
 
 .header {
@@ -44,7 +41,7 @@ body {
 }
 
 .logo {
-    font-family: --secondary-font-family;
+    font-family: var(--secondary-font-family);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -113,17 +110,14 @@ body {
     color: var(--white-color);
 }
 
-.prop,
-.about {
-    background-color: var(--secondary-lite-color);
-}
 
-.ptop-title {
+.prop-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--secondary-text-color);
 }
 
 .prop-description {
@@ -141,6 +135,7 @@ body {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 }
 
 .team-description {
@@ -149,9 +144,6 @@ body {
     letter-spacing: 0.03em;
 }
 
-.portfolio {
-    background-color: var(--secondary-lite-color);
-}
 
 .filter-btn {
     background-color: var(--primary-lite-color);
@@ -167,8 +159,7 @@ body {
 }
 
 .filter-btn:hover,
-.filter-btn:focus,
-.filter-btn:active {
+.filter-btn:focus {
     background-color: var(--primary-decor-color);
     color: var(--white-color);
 }
@@ -178,12 +169,14 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
 }
 
 .portfolio-type {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 
 .footer {
